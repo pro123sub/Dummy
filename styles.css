@@ -1,0 +1,119 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Section Styles */
+.customer-info, .card-list, .search-history, .recommendations {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #444;
+    border-bottom: 3px solid #e0e0e0;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Recommendation Styles */
+.recommendation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation img {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.progress-bar {
+    flex: 1;
+    background: #ddd;
+    height: 24px;
+    border-radius: 12px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: #4caf50;
+    width: 0; /* Dynamically updated with JavaScript */
+    border-radius: 12px;
+}
+
+/* Recommendation Text */
+.recommendation p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .recommendation img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .progress-bar {
+        width: 100%;
+    }
+}
